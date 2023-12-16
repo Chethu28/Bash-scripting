@@ -13,6 +13,10 @@ This script fetches information about various AWS resources in your account, inc
 
 1. Make sure you have the AWS CLI and jq installed.
 2. Configure the AWS CLI with your credentials using `aws configure`.
+3. Give executable  permissions to script file
+    ```
+    chmod +x resource-tracker.sh
+    ```
 3. Run the script:
 
     ```bash
